@@ -1,0 +1,17 @@
+{
+  "title": "English4IT customizer",
+  "name": "english4it-customizer",
+  "version": "1.0.0",
+  "description": "Style customizer for www.english4it.com",
+  "main": "main.js",
+  "author": "Rostyslav Kurylo",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "english4it",
+	"customizer"
+  ]
+}

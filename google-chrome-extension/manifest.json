@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_app_name__",
+  "short_name": "__MSG_app_name_short__",
+  "version": "1.0",
+  "author": "Rostyslav Kurylo",
+  "default_locale": "en",
+  "description": "__MSG_app_description__",
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "64": "images/icon_64.png",
+    "128": "images/icon_128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "__MSG_app_name__"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.english4it.com/*",
+        "https://www.english4it.com/*"
+       ],
+      "css": [
+        "styles/custom_style.css"
+      ]
+    }
+  ]
+}

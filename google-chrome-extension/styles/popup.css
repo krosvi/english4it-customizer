@@ -1,0 +1,30 @@
+html {
+  background-color: #eceff1;
+  min-width: 245px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.img-icon {
+  float: left;
+  padding-right: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: 0.8em;
+}

@@ -1,0 +1,11 @@
+{
+  "app_name": {
+    "message": "English4IT customizer"
+  },
+  "app_name_short": {
+    "message": "english4it-customizer"
+  },
+  "app_description": {
+    "message": "Style customizer for www.english4it.com"
+  }
+}
